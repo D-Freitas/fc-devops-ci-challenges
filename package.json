@@ -6,7 +6,7 @@
   "license": "ISC",
   "type": "module",
   "scripts": {
-    "test": "find . -name \"*.spec.js\" -exec node {} \\;",
+    "test": "find . -type f -name \"*.spec.js\" -exec node {} \\;",
     "start": "node index.js"
   }
 }
