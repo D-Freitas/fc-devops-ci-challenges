@@ -3,11 +3,7 @@ name: FC DevOps CI Challenges
 on:
   push:
     branches:
-      - develop
-
-  pull_request:
-    branches:
-      - develop
+      - main
 
 jobs:
   deploy:
