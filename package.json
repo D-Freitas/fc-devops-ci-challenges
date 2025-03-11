@@ -1,0 +1,12 @@
+{
+  "name": "fc-devops-ci-challenges",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Davi Freitas",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "test": "find . -type f -name \"*.spec.js\" -exec node {} \\;",
+    "start": "node index.js"
+  }
+}
